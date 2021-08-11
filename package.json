@@ -1,0 +1,45 @@
+{
+  "name": "kimbri-ui",
+  "version": "1.0.0",
+  "description": "Another React component library that's gonna fill your life with shining and love",
+  "main": "index.js",
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@storybook/addon-actions": "^6.3.7",
+    "@storybook/addon-essentials": "^6.3.7",
+    "@storybook/addon-links": "^6.3.7",
+    "@storybook/react": "^6.3.7",
+    "@types/react": "^17.0.17",
+    "babel-loader": "^8.2.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "typescript": "^4.3.5"
+  },
+  "peerDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "scripts": {
+    "test": "test",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LemmeSmsh/kimbri-ui.git"
+  },
+  "keywords": [
+    "react",
+    "components",
+    "library",
+    "ui",
+    "bit"
+  ],
+  "author": "LemmeSmsh",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/LemmeSmsh/kimbri-ui/issues"
+  },
+  "homepage": "https://github.com/LemmeSmsh/kimbri-ui#readme",
+  "dependencies": {}
+}
