@@ -8,10 +8,11 @@
     "@babel/plugin-proposal-optional-chaining": "^7.14.5",
     "@babel/preset-env": "^7.15.0",
     "@babel/preset-react": "^7.14.5",
-    "@storybook/addon-actions": "^6.3.7",
-    "@storybook/addon-essentials": "^6.3.7",
-    "@storybook/addon-links": "^6.3.7",
-    "@storybook/react": "^6.3.7",
+    "@storybook/addon-actions": "^6.4.0-alpha.30",
+    "@storybook/addon-essentials": "^6.4.0-alpha.30",
+    "@storybook/addon-links": "^6.4.0-alpha.30",
+    "@storybook/builder-webpack5": "^6.4.0-alpha.30",
+    "@storybook/react": "^6.4.0-alpha.30",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^12.0.0",
     "@types/enzyme": "^3.10.9",
@@ -21,7 +22,6 @@
     "babel-jest": "^27.0.6",
     "babel-loader": "^8.2.2",
     "babel-plugin-transform-class-properties": "^6.24.1",
-    "babel-preset-react-app": "^10.0.0",
     "classnames": "^2.3.1",
     "css-loader": "^6.2.0",
     "enzyme": "^3.11.0",
@@ -32,7 +32,7 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "sass": "^1.38.0",
-    "sass-loader": "^12.1.0",
+    "sass-loader": "10.1.1",
     "style-loader": "^3.2.1",
     "ts-node": "^10.2.0",
     "typescript": "^4.3.5"
@@ -45,6 +45,7 @@
     "start": "react-scripts start",
     "test": "jest",
     "storybook": "start-storybook -p 6006",
+    "sb": "yarn storybook",
     "build-storybook": "build-storybook"
   },
   "repository": {
@@ -63,6 +64,5 @@
   "bugs": {
     "url": "https://github.com/LemmeSmsh/kimbri-ui/issues"
   },
-  "homepage": "https://github.com/LemmeSmsh/kimbri-ui#readme",
-  "dependencies": {}
+  "homepage": "https://github.com/LemmeSmsh/kimbri-ui#readme"
 }
