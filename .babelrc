@@ -1,0 +1,19 @@
+{
+  "env": {
+    "test": {
+      "plugins": [
+        "babel-plugin-transform-class-properties",
+        "@babel/plugin-proposal-optional-chaining",
+        ["@babel/plugin-proposal-private-property-in-object", { "loose": true }]
+      ],
+      "presets": [
+        ["@babel/preset-env", { "targets": { "node": "current" } }],
+        "@babel/preset-react"
+      ]
+    },
+    "exclude": {
+      "ignore": ["#undone"]
+    }
+  },
+  "presets": ["react-app"]
+}

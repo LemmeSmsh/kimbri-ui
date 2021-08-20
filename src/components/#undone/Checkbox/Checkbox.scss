@@ -1,0 +1,40 @@
+.label-checkbox {
+  width: 16px;
+  height: 16px;
+  position: relative;
+
+  padding: 2px;
+
+  &::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    box-sizing: border-box;
+    border: 2px solid grey;
+    border-radius: 3px;
+  }
+
+  .input-checkbox {
+    opacity: 0;
+  }
+
+  .input-checkbox[checked] {
+    width: 100%;
+    height: 100%;
+
+    &::after {
+      content: '';
+      position: relative;
+      width: 100%;
+      height: 100%;
+      opacity: 1;
+
+      background: grey
+    }
+  }
+}
